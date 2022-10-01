@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sawaal_1_crore_ka/static/css/main.abd64e84.css",
+    "main.js": "/sawaal_1_crore_ka/static/js/main.a2eabb21.js",
+    "index.html": "/sawaal_1_crore_ka/index.html",
+    "main.abd64e84.css.map": "/sawaal_1_crore_ka/static/css/main.abd64e84.css.map",
+    "main.a2eabb21.js.map": "/sawaal_1_crore_ka/static/js/main.a2eabb21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.a2eabb21.js"
+  ]
+}
