@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.registration{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+   
+}
+.registration-left{
+    width: 60%;
+
+    background-color: rgb(1, 0, 1);
+    padding: 2% 5%;
+}
+.registration-right{
+    width: 40%;
+  
+    background-color: rgb(255, 214, 1);
+}
+.registration-image{
+    height: 110px;
+    width: 110px;
+}
+.registration-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.registration-formfields{
+    width: 50%;
+   
+    }
+
+    .registration-form{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        margin: 7vh 0vh;
+    
+    }
+    .registrationform-part1,.registrationform-part2{
+        display: flex;
+        flex-direction: row;
+        gap: 6%;
+    }
+    .registration-line{
+        width: 100%;
+        height: 1px;
+        background-color: rgb(255, 214, 1);
+        margin-bottom: 2vh;
+    }
+    .registration-checkbox{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .registration-button{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+      }
+    .button1{
+        color: #000;
+        width: 70px;
+        border: 0cm;
+        height:38px;
+        border-radius: 10px;
+        color:#000 ;
+        font-size: 16px;
+        background-color: rgb(255, 214, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .button2{
+        color: #000;
+        width: 270px;
+        border: 0cm;
+        height:38px;
+        border-radius: 10px;
+        color:#000 ;
+        font-size: 16px;
+        background-color: rgb(255, 214, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menuitem{
+        color:#fff;
+    }
+    .menuitem:active{
+        color: #000;
+    }
+    .gender-selector{
+        border: 1px solid white;
+        color: #fff;
+        width: 50%;
+    }
+  
+@media (max-width:1000px) {
+    .registration-left{
+        width: 65%;
+    }
+    .registration-right{
+        width: 35%;
+    }
+}
+@media (max-width:860px) {
+.registration-checkbox{
+    display: flex;
+    flex-direction: column;
+}
+}
+@media (max-width:550px) {
+ .registration{
+    display: block;
+
+ }
+ .registration-left{
+height: 900px;
+width: 100%;
+ }
+ .registration-right{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    padding: 0px 5%;
+ }
+ .registration-formfields{
+    width: 100%;
+    }
+    .registrationform-part1,.registrationform-part2{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    }

@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.account{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+   
+}
+.account-left{
+    width: 60%;
+
+    background-color: rgb(1, 0, 1);
+    padding: 2% 5%;
+}
+.account-right{
+    width: 40%;
+  
+    background-color: rgb(255, 214, 1);
+}
+.account-image{
+    height: 110px;
+    width: 110px;
+}
+.account-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.textfield-label{
+    color: white !important;
+   
+}
+.account-formfields{
+width: 50%;
+
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 8.5px 14px;
+}
+.date-of-birth{
+    color: #fff;
+}
+.button-container{
+  background-color: #fff;
+    width: 50%;
+    border: 1px solid  white;
+    border-radius: 3px ;
+    align-items: center;
+    display: flex;
+}
+.date-button{
+  
+  
+    padding-left: 10px;
+    font-size: 16px;    
+}
+.account-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin: 7vh 0vh;
+
+}
+.accountform-part1,.accountform-part2{
+    display: flex;
+    flex-direction: row;
+    gap: 6%;
+}
+.account-line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(255, 214, 1);
+    margin-bottom: 2vh;
+}
+.account-button{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  
+   
+}
+.button{
+    color: #000;
+    width: 70px;
+    border: 0cm;
+    height:38px;
+    border-radius: 10px;
+    color:#000 ;
+    font-size: 16px;
+    background-color: rgb(255, 214, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:1000px) {
+    .account-left{
+        width: 65%;
+    }
+    .account-right{
+        width: 35%;
+    }
+}
+@media (max-width:550px) {
+    .account{
+       display: block;
+   
+    }
+    .account-left{
+   height: 900px;
+   width: 100%;
+    }
+    .account-right{
+       height: 500px;
+       width: 100%;
+       position: relative;
+       padding: 0px 5%;
+    }
+    .account-formfields{
+        width: 100%;
+        }
+        .accountform-part1,.accountform-part2{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+       }

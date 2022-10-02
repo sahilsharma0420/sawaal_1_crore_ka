@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.login{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+   
+}
+.login-left{
+    width: 60%;
+    height: 100vh;
+    background-color: rgb(1, 0, 1);
+    padding: 2% 5%;
+}
+.login-right{
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(255, 214, 1);
+}
+.login-image{
+    height: 110px;
+    width: 110px;
+}
+.login-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.login-formfields{
+    width: 50%;
+    }
+    .login-form{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        margin: 7vh 0vh;
+    
+    }
+    .loginform-part{
+        display: flex;
+        flex-direction: row;
+        gap: 6%;
+    }
+    .login-line{
+        width: 100%;
+        height: 1px;
+        background-color: rgb(255, 214, 1);
+        margin-bottom: 2vh;
+    }
+    .login-button{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+      
+       
+    }
+    .button3{
+        color: #000;
+        width: 70px;
+        border: 0cm;
+        height:38px;
+        border-radius: 10px;
+        color:#000 ;
+        font-size: 16px;
+        background-color: rgb(255, 214, 1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    @media (max-width:1000px) {
+        .login-left{
+            width: 65%;
+        }
+        .login-right{
+            width: 35%;
+        }
+    }
+    @media (max-width:860px) {
+    .login-checkbox{
+        display: flex;
+        flex-direction: column;
+    }
+    }
+    @media (max-width:550px) {
+     .login{
+        display: block;
+    
+     }
+     .login-left{
+    height: 900px;
+    width: 100%;
+     }
+     .login-right{
+        height: 500px;
+        width: 100%;
+        position: relative;
+       padding: 0% 5%;
+     }
+     .login-formfields{
+        width: 100%;
+        }
+        .loginform-part{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+        }
