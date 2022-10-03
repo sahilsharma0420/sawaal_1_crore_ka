@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sawaal_1_crore_ka/static/css/main.77d08533.css",
-    "main.js": "/sawaal_1_crore_ka/static/js/main.17a29b4e.js",
+    "main.css": "/sawaal_1_crore_ka/static/css/main.217dbbe1.css",
+    "main.js": "/sawaal_1_crore_ka/static/js/main.653501d0.js",
     "index.html": "/sawaal_1_crore_ka/index.html",
-    "main.77d08533.css.map": "/sawaal_1_crore_ka/static/css/main.77d08533.css.map",
-    "main.17a29b4e.js.map": "/sawaal_1_crore_ka/static/js/main.17a29b4e.js.map"
+    "main.217dbbe1.css.map": "/sawaal_1_crore_ka/static/css/main.217dbbe1.css.map",
+    "main.653501d0.js.map": "/sawaal_1_crore_ka/static/js/main.653501d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.77d08533.css",
-    "static/js/main.17a29b4e.js"
+    "static/css/main.217dbbe1.css",
+    "static/js/main.653501d0.js"
   ]
 }
