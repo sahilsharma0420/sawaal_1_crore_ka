@@ -20,7 +20,9 @@ function Login() {
   return (
     <div className='login'>
     <div className='login-left'>
+   <div className='login-image-container'>
     <img className='login-image' src='https://sawaal1croreka.store/static/media/LOGO.434515af13a87abaa220.jpg' alt='not  found'/>
+      </div>
       <div className='login-heading'>
         <h2 className='login-heading-part1'>Login  to your account</h2>
         <p className='login-heading-part2'>Access exclusive features by logging back into your account</p>

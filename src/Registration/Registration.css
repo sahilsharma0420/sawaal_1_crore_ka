@@ -25,6 +25,9 @@
 .registration-image{
     height: 110px;
     width: 110px;
+ 
+}
+.registration-image-container{
     padding-top: 7%;
     padding-left: 5%;
     padding-bottom: 3%;

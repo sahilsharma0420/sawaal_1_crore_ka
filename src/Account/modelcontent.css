@@ -20,6 +20,11 @@ margin-bottom: 1rem;
 text-align: justify;
 }
 .model-dialog{
+   position: absolute;
+   z-index: 135;
+   left: auto;
+   right: auto;
+   top: 0;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -36,7 +41,7 @@ border: 1px solid rgb(202, 202, 202);
 border-radius: 10px;
 display: flex;
 flex-direction: column;
-
+background-color: white;
 }
 .icon-button2{
     color:rgb(202, 202, 202);
