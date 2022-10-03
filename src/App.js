@@ -9,10 +9,10 @@ function App() {
     <div >
     <BrowserRouter>
       <Routes>
-      <Route path="/login" element={<Login />} />
-      <Route path="/registration" element={<Registration />} />
-      <Route path="/" element={<Account />} />
-      <Route path="/modelcontent" element={<Modelcontent />} />
+      <Route path="/Login" element={<Login />} />
+      <Route path="/Registration" element={<Registration />} />
+      <Route path="/sawaal_1_crore_ka" element={<Account />} />
+      <Route path="/Modelcontent" element={<Modelcontent />} />
       <Route path="/*" element={<Navigate to="/"/>} />
       </Routes>
     </BrowserRouter>
