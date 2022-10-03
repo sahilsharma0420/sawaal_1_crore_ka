@@ -33,16 +33,16 @@ function Registration() {
       </div>
       <div className='registration-form'>
       <div className='registrationform-part1'>
-        <CssTextField className="registration-formfields" type="text" label="Name" sx={{ input: { color: 'white' } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
-        <CssTextField className="registration-formfields" type="text" label="E-mail" sx={{ input: { color: 'white' } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="registration-formfields" type="text" label=<p className="name">Name</p> sx={{ input: { color: 'white' , height:"40px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="registration-formfields" type="text" label=<p className="email">E-mail </p>sx={{ input: { color: 'white', height:"40px"  } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
       </div>
       <div className='registrationform-part2'>
-      <CssTextField className="registration-formfields" type="text" label="Mobile" sx={{ input: { color: 'white' } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/> 
-      <CssTextField className="registration-formfields" select type="text" label="Select Gender" value={input} sx={{ input: { color: 'white' } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' onChange={handleChange} > 
+      <CssTextField className="registration-formfields" type="text" label=<p className="mobile">Mobile</p> sx={{ input: { color: 'white', height:"40px"  } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/> 
+      <CssTextField className="registration-formfields" select type="text" label="Select Gender" value={input} sx={{ input: { color: 'white'  } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='medium' onChange={handleChange} > 
        
-       <MenuItem value="male"><p className="menuitem">Male</p></MenuItem>
-       <MenuItem value="female"><p className="menuitem">Female</p></MenuItem>
-       <MenuItem value="other"><p className="menuitem">Others</p></MenuItem>
+       <MenuItem  value="male"><p className="menuitem">Male</p></MenuItem>
+       <MenuItem  value="female"><p className="menuitem">Female</p></MenuItem>
+       <MenuItem  value="other"><p className="menuitem">Others</p></MenuItem>
        </CssTextField>
       </div>
       </div>

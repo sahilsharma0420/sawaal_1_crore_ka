@@ -42,7 +42,7 @@ function Account() {
       <LocalizationProvider dateAdapter={AdapterDayjs}>
       <MobileDatePicker
           label=<p className="date-of-birth ">Date of Birth</p>
-         className="css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+  
           sx={{label:{borderColor:"white"}}}
           inputFormat="MM/DD/YYYY"
           value={value}
@@ -51,11 +51,11 @@ function Account() {
         />
       </LocalizationProvider>
 
-        <CssTextField className="account-formfields" type="number" label="Retirement Age" sx={{ input: { color: 'white' } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="account-formfields" type="number" label=<p className="retirement">Retirement Age</p> sx={{ input: { color: 'white', height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
       </div>
       <div className='accountform-part2'>
-      <CssTextField className="account-formfields" type="number" label="Current Monthly Expenses of your family" sx={{ input: { color: 'white' } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/> 
-      <CssTextField className="account-formfields" type="number" label="Estimated inflation rate (in %)" sx={{ input: { color: 'white' } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+      <CssTextField className="account-formfields" type="number" label=<p className="expenses">Current Monthly Expenses of your family</p> sx={{ input: { color: 'white', height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/> 
+      <CssTextField className="account-formfields" type="number" label=<p className="inflation">Estimated inflation rate (in %)</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
       </div>
       </div>
       <div className='account-line'/>
