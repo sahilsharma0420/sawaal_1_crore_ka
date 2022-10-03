@@ -24,7 +24,7 @@ text-align: justify;
    z-index: 135;
    left: auto;
    right: auto;
-   top: 50px;
+   top: 70px;
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -79,7 +79,7 @@ padding: 16px;
 }
 @media (max-width:550px) {
     .model-content{
-        height: 815px;
+        height: 850px;
         width: 400px;
     }
     .model-content-line{
@@ -89,10 +89,13 @@ padding: 16px;
      
         background-color: rgb(202, 202, 202);    
     }
+    .model-dialog{
+        height: 850px;
+    }
 }
 @media (max-width:450px) {
     .model-content{
-        height: 850px;
+        height: 880px;
         width: 350px;
     }
     .model-content-line{
@@ -102,4 +105,7 @@ padding: 16px;
      
         background-color: rgb(202, 202, 202);    
     }
+    .model-dialog{
+        height: 880px;
+    }   
 }
