@@ -2,9 +2,9 @@ import React,{useState} from 'react'
 import "./Registration.css"
 import {TextField} from "@mui/material"
 import {styled} from "@mui/material/styles"
-import {Button} from "@mui/material"
+import { Button } from "@mui/material";
 import {FormControlLabel,Checkbox,MenuItem} from "@mui/material"
-import {useNavigate} from "react-router-dom";
+import {useNavigate } from "react-router-dom";
 function Registration() {
   const history =useNavigate();
 const login=()=>{
@@ -53,13 +53,15 @@ const login=()=>{
       </div>
       </div>
       <div className='registration-line'/>
+    <div className="lower-section">
       <div className='registration-checkbox'>
       <FormControlLabel label="I have read and accept the Terms and Conditions" control={<Checkbox style ={{color: "rgb(255, 214, 1)",}}/>}/>
       <FormControlLabel label="Subscribe to the newsletter to stay up to date" control={<Checkbox style ={{color: "rgb(255, 214, 1)",}}/>}/>
       </div>
       <div className='registration-button'>
-        <Button><p className='button1'>Next</p></Button>
-        <Button><p className='button2' onClick={login}>Already have an account?</p></Button>
+        <Button  style={{ padding:"0px" }}><p className='button1'>Next</p></Button>
+        <p className='button2' onClick={login}>Already have an account?</p>
+      </div>
       </div>
     </div>
     <div className='registration-right'></div>

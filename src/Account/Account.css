@@ -14,11 +14,12 @@
 .account-left{
     width: 60%;
     background-color: rgb(1, 0, 1);
-   
+   height: 100vh;
 }
 .account-right{
     width: 40%;
     background-color: rgb(255, 214, 1);
+    height: 100vh;
 }
 .account-image{
     height: 110px;
@@ -108,21 +109,81 @@ width: 50%;
 .inflation,.retirement,.expenses{
     margin-top: 6px;
 }
+@media (max-width:1430px) {
+    .account-left{
+        height: 850px;
+    }
+    .account-right{
+        height: 850px;
+    }
+   }
+   @media (max-width:1380px) {
+    .account-left{
+        height: 900px;
+    }
+    .account-right{
+        height: 900px;
+    }
+   }
+
+   @media (max-width:1080px) {
+    .account-left{
+        height: 930px;
+    }
+    .account-right{
+        height: 930px;
+    }
+   }
 @media (max-width:1000px) {
+
     .account-left{
         width: 65%;
+        
     }
     .account-right{
         width: 35%;
+        
     }
 }
+@media (max-width:880px) {
+    .account-left{
+        height: 960px;
+    }
+    .account-right{
+        height: 960px;
+    }
+   }
+   @media (max-width:740px) {
+    .account-left{
+        height: 990px;
+    }
+    .account-right{
+        height: 990px;
+    }
+   }
+   @media (max-width:670px) {
+    .account-left{
+        height: 1050px;
+    }
+    .account-right{
+        height: 1050px;
+    }
+   }
+   @media (max-width:640px) {
+    .account-left{
+        height: 1100px;
+    }
+    .account-right{
+        height: 1100px;
+    }
+   }
 @media (max-width:550px) {
     .account{
        display: block;
    
     }
     .account-left{
-   height: 900px;
+   height: auto;
    width: 100%;
     }
     .account-right{
@@ -140,3 +201,9 @@ width: 50%;
             gap: 50px;
         }
        }
+       @media (max-width:400px) {
+        .account-left{
+            height: 1100px;
+        }
+       }      
+    

@@ -62,44 +62,11 @@ function Account() {
         <h2 className='account-heading-part1'>Create account</h2>
         <p className='account-heading-part2'>Get access to exclusive features by creating an account</p>
       </div>
-      <div className='account-form'>
-      <div className='accountform-part1'>
      
-      <LocalizationProvider dateAdapter={AdapterDayjs}>
-      <MobileDatePicker
-          label=<p className="date-of-birth ">Date of Birth</p>
-  
-          sx={{label:{borderColor:"white"}}}
-          inputFormat="MM/DD/YYYY"
-          value={value}
-          onChange={handleChange}
-          renderInput={(params) => <CssTextField {...params}  className="account-formfields"    sx={{input:{color:"white"},label:{color:"#fff",borderColor:"white"}}}/>}
-        />
-      </LocalizationProvider>
-
-        <CssTextField className="account-formfields" value={registration} onChange={(e)=>setregistration(e.target.value)} type="number" label=<p className="retirement">Retirement Age</p> sx={{ input: { color: 'white', height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
-      </div>
-      <div className='accountform-part2'>
-      <CssTextField className="account-formfields" value={expenses} onChange={(e)=>setexpenses(e.target.value)} type="number" label=<p className="expenses">Current Monthly Expenses of your family</p>  sx={{ input: { color: 'white', height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/> 
-      <CssTextField className="account-formfields" value={inflation} onChange={(e)=>setinflation(e.target.value)} type="number" label=<p className="inflation">Estimated inflation rate (in %)</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
-      </div>
-      </div>
-      <div className='account-line'/>
-      <div className='account-button'>
-        <Button onClick={Modelcontent}><p className='button'>Next</p></Button>
-      </div>
-    </div>
-    <div className='account-right' ></div>
-    </div>
-    {model &&
-      <div className="model-dialog">
+      {model ?
+     <>
       <div className="model-content">
-        <div className="model-content-header">
-          <Button className="icon-button2">
-            <CloseIcon color="black" onClick={Cross}/>
-          </Button>
-        </div>
-        <div className="model-content-line"/>
+        
         <div className="model-content-body">
           <p>
             Your Estimated Monthly Expenses at age 60 after retirement will be
@@ -142,8 +109,44 @@ function Account() {
             </span>
           </p>
         </div>
+        <div className="back">
+          <p onClick={Cross}>Back</p>
+        </div>
       </div>
-    </div>} 
+      </> :
+      <>
+      <div className='account-form'>
+      <div className='accountform-part1'>
+     
+      <LocalizationProvider dateAdapter={AdapterDayjs}>
+      <MobileDatePicker
+          label=<p className="date-of-birth ">Date of Birth</p>
+  
+          sx={{label:{borderColor:"white"}}}
+          inputFormat="MM/DD/YYYY"
+          value={value}
+          onChange={handleChange}
+          renderInput={(params) => <CssTextField {...params}  className="account-formfields"    sx={{input:{color:"white"},label:{color:"#fff",borderColor:"white"}}}/>}
+        />
+      </LocalizationProvider>
+
+        <CssTextField className="account-formfields" value={registration} onChange={(e)=>setregistration(e.target.value)} type="number" label=<p className="retirement">Retirement Age</p> sx={{ input: { color: 'white', height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+      </div>
+      <div className='accountform-part2'>
+      <CssTextField className="account-formfields" value={expenses} onChange={(e)=>setexpenses(e.target.value)} type="number" label=<p className="expenses">Current Monthly Expenses of your family</p>  sx={{ input: { color: 'white', height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/> 
+      <CssTextField className="account-formfields" value={inflation} onChange={(e)=>setinflation(e.target.value)} type="number" label=<p className="inflation">Estimated inflation rate (in %)</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+      </div>
+      </div>
+      <div className='account-line'/>
+      <div className='account-button'>
+        <Button onClick={Modelcontent}><p className='button'>Next</p></Button>
+      </div>
+      </>
+    }
+    </div>
+    <div className='account-right' ></div>
+    </div>
+     
     </>
   )
 }

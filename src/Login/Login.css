@@ -51,9 +51,10 @@
     }
     .loginform-part{
         display: flex;
-        flex-direction: row;
-        gap: 6%;
+        flex-direction: column;
+        gap: 20px;
         padding: 0% 5%;
+        align-items: center;
     }
     .login-line{
         width: 90%;
