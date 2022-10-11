@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    
 }
-.login{
+.dreamhome{
     position: absolute;
     top: 8vh;
     width: 100%;
@@ -13,60 +13,73 @@
     color: #fff;
    
 }
-.login-left{
+.dreamhome-left{
     width: 60%;
- 
     background-color: rgb(1, 0, 1);
-    
+   
 }
-.login-right{
+.dreamhome-right{
     width: 40%;
- 
     background-color: rgb(255, 214, 1);
+  
 }
-.login-image{
+
+.dreamhome-image{
     height: 110px;
     width: 110px;
    
 }
-
-.login-image-container{
+.dreamhome-image-container{
     padding-top: 2%;
     padding-left: 5%;
     padding-bottom: 3%;
 }
-.login-heading{
+.dreamhome-heading{
     display: flex;
     flex-direction: column;
     gap: 10px;
    
     padding: 0% 5%;
 }
-.login-heading-part1{
+.dreamhome-heading-part1{
     font-size: 24px;
 }
-.login-heading-part2{
+.dreamhome-heading-part2{
     margin-bottom: 0px;
     font-size: 17px;
 }
-.login-formfields{
+.dreamhome-formfields{
     width: 50%;
     }
-    .login-form{
+    .dreamhome-form{
         display: flex;
         flex-direction: column;
         gap: 5vh;
         margin: 5vh 0vh;
     
     }
-    .loginform-part{
+    .dreamhomeform-part1{
         display: flex;
-        flex-direction: column;
-        gap: 5vh;
+        flex-direction: row;
+        gap: 20px;
         padding: 0% 5%;
         align-items: center;
     }
-    .login-line{
+    .dreamhomeform-part2{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 0% 5%;
+        align-items: center;
+    }
+    .dreamhomeform-part3{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 0% 5%;
+        align-items: center;
+    }
+    .dreamhome-line{
         width: 90%;
         height: 1px;
         background-color: rgb(255, 214, 1);
@@ -75,9 +88,8 @@
         right: 0;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 5vh;
     }
-    .login-button{
+    .dreamhome-button{
         display: flex;
         justify-content: flex-end;
        padding: 0% 5%;
@@ -96,43 +108,43 @@
         
         justify-content: center;
     }
-    .loginemail,.password{
+    .field1,.field2,.field3,.field4,.field5,.field6{
         margin-top: 6px;
         font-size: 16px;
     }
     @media (max-width:1000px) {
-        .login-left{
+        .dreamhome-left{
             width: 65%;
         }
-        .login-right{
+        .dreamhome-right{
             width: 35%;
         }
     }
     @media (max-width:860px) {
-    .login-checkbox{
+    .dreamhome-checkbox{
         display: flex;
         flex-direction: column;
     }
     }
     @media (max-width:550px) {
-     .login{
+     .dreamhome{
         display: block;
     
      }
-     .login-left{
+     .dreamhome-left{
     height: 900px;
     width: 100%;
      }
-     .login-right{
+     .dreamhome-right{
         height: 500px;
         width: 100%;
         position: relative;
        
      }
-     .login-formfields{
+     .dreamhome-formfields{
         width: 100%;
         }
-        .loginform-part{
+        .dreamhomeform-part{
             display: flex;
             flex-direction: column;
             gap: 50px;

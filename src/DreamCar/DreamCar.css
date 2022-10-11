@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    
 }
-.login{
+.dreamcar{
     position: absolute;
     top: 8vh;
     width: 100%;
@@ -13,60 +13,74 @@
     color: #fff;
    
 }
-.login-left{
+.dreamcar-left{
     width: 60%;
- 
     background-color: rgb(1, 0, 1);
-    
-}
-.login-right{
-    width: 40%;
  
-    background-color: rgb(255, 214, 1);
 }
-.login-image{
+.dreamcar-right{
+    width: 40%;
+    background-color: rgb(255, 214, 1);
+   
+}
+.dreamcar-image{
     height: 110px;
     width: 110px;
    
 }
 
-.login-image-container{
+.dreamcar-image-container{
     padding-top: 2%;
     padding-left: 5%;
     padding-bottom: 3%;
 }
-.login-heading{
+.dreamcar-heading{
     display: flex;
     flex-direction: column;
     gap: 10px;
    
     padding: 0% 5%;
 }
-.login-heading-part1{
+.dreamcar-heading-part1{
     font-size: 24px;
 }
-.login-heading-part2{
+.dreamcar-heading-part2{
     margin-bottom: 0px;
     font-size: 17px;
 }
-.login-formfields{
+.dreamcar-formfields{
     width: 50%;
+    
     }
-    .login-form{
+    .dreamcar-form{
         display: flex;
         flex-direction: column;
         gap: 5vh;
         margin: 5vh 0vh;
     
     }
-    .loginform-part{
+    .dreamcarform-part1{
         display: flex;
-        flex-direction: column;
-        gap: 5vh;
+        flex-direction: row;
+        gap: 20px;
         padding: 0% 5%;
         align-items: center;
     }
-    .login-line{
+    .dreamcarform-part2{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 0% 5%;
+        align-items: center;
+    }
+    .dreamcarform-part3{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 0% 5%;
+        align-items: center;
+    }
+    .dreamcar-line{
         width: 90%;
         height: 1px;
         background-color: rgb(255, 214, 1);
@@ -75,9 +89,8 @@
         right: 0;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 5vh;
     }
-    .login-button{
+    .dreamcar-button{
         display: flex;
         justify-content: flex-end;
        padding: 0% 5%;
@@ -96,43 +109,43 @@
         
         justify-content: center;
     }
-    .loginemail,.password{
+    .field1,.field2,.field3,.field4,.field5,.field6{
         margin-top: 6px;
         font-size: 16px;
     }
     @media (max-width:1000px) {
-        .login-left{
+        .dreamcar-left{
             width: 65%;
         }
-        .login-right{
+        .dreamcar-right{
             width: 35%;
         }
     }
     @media (max-width:860px) {
-    .login-checkbox{
+    .dreamcar-checkbox{
         display: flex;
         flex-direction: column;
     }
     }
     @media (max-width:550px) {
-     .login{
+     .dreamcar{
         display: block;
     
      }
-     .login-left{
+     .dreamcar-left{
     height: 900px;
     width: 100%;
      }
-     .login-right{
+     .dreamcar-right{
         height: 500px;
         width: 100%;
         position: relative;
        
      }
-     .login-formfields{
+     .dreamcar-formfields{
         width: 100%;
         }
-        .loginform-part{
+        .dreamcarform-part{
             display: flex;
             flex-direction: column;
             gap: 50px;

@@ -29,8 +29,8 @@ function Login() {
       </div>
       <div className='login-form'>
       <div className='loginform-part'>
-        <CssTextField className="login-formfields" type="text" label=<p className="loginemail">E-mail</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
-        <CssTextField className="login-formfields" type="password" label=<p className="password">Password</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="login-formfields" type="text" label=<p className="loginemail">E-mail</p> sx={{ input: { color: 'white' , height:"32px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="login-formfields" type="password" label=<p className="password">Password</p> sx={{ input: { color: 'white' , height:"32px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
       </div>
   
       </div>

@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    
 }
-.login{
+.childmarriage{
     position: absolute;
     top: 8vh;
     width: 100%;
@@ -13,60 +13,73 @@
     color: #fff;
    
 }
-.login-left{
+.childmarriage-left{
     width: 60%;
- 
     background-color: rgb(1, 0, 1);
-    
+  
 }
-.login-right{
+
+.childmarriage-right{
     width: 40%;
- 
     background-color: rgb(255, 214, 1);
+ 
 }
-.login-image{
+.childmarriage-image{
     height: 110px;
     width: 110px;
    
 }
-
-.login-image-container{
+.childmarriage-image-container{
     padding-top: 2%;
     padding-left: 5%;
     padding-bottom: 3%;
 }
-.login-heading{
+.childmarriage-heading{
     display: flex;
     flex-direction: column;
     gap: 10px;
    
     padding: 0% 5%;
 }
-.login-heading-part1{
+.childeducation-heading-part1{
     font-size: 24px;
 }
-.login-heading-part2{
+.childeducation-heading-part2{
     margin-bottom: 0px;
     font-size: 17px;
 }
-.login-formfields{
+.childmarriage-formfields{
     width: 50%;
     }
-    .login-form{
+    .childmarriage-form1, .childmarriage-form2, .childmarriage-form3, .childmarriage-form4{
         display: flex;
         flex-direction: column;
         gap: 5vh;
-        margin: 5vh 0vh;
+        margin-top: 5vh ;
     
     }
-    .loginform-part{
+    .childmarriageform-part1{
         display: flex;
-        flex-direction: column;
-        gap: 5vh;
+        flex-direction: row;
+        gap: 20px;
         padding: 0% 5%;
         align-items: center;
     }
-    .login-line{
+    .childmarriageform-part2{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 0% 5%;
+        align-items: center;
+    }
+    .childmarriageform-part3{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 0% 5%;
+        align-items: center;
+    }
+    .childmarriage-line{
         width: 90%;
         height: 1px;
         background-color: rgb(255, 214, 1);
@@ -75,14 +88,14 @@
         right: 0;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 5vh;
+        margin-bottom: 0%;
     }
-    .login-button{
+    .childmarriage-button{
         display: flex;
         justify-content: flex-end;
        padding: 0% 5%;
        }
-    .button3{
+    .button3,.button5,.button7,.button9{
         color: #000;
         width: 70px;
         border: 0cm;
@@ -96,43 +109,72 @@
         
         justify-content: center;
     }
-    .loginemail,.password{
+    .radio,.radio1,.radio2,.radio3{
+        border:1px solid rgb(255, 214, 1); 
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+       
+       
+        border-radius: 50%;
+    }
+    .button4,.button6,.button8{
+        color: #000;
+        width: 90px;
+        border: 0cm;
+        height:38px;
+        border-radius: 10px;
+        color:#000 ;
+        font-size: 16px;
+        background-color: rgb(255, 214, 1);
+        display: flex;
+        align-items: center;
+        
+        justify-content: center;
+    }
+    .field1,.field2,.field3,.field4,.field5,.field6 , .field7,.field8,.field9,.field10,.field11,.field12 , .field13,.field14,.field15,.field16{
         margin-top: 6px;
         font-size: 16px;
     }
+    .radio-field{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 0;
+    }
     @media (max-width:1000px) {
-        .login-left{
+        .childmarriage-left{
             width: 65%;
         }
-        .login-right{
+        .childmarriage-right{
             width: 35%;
         }
     }
     @media (max-width:860px) {
-    .login-checkbox{
+    .childmarriage-checkbox{
         display: flex;
         flex-direction: column;
     }
     }
     @media (max-width:550px) {
-     .login{
+     .childmarriage{
         display: block;
     
      }
-     .login-left{
+     .childmarriage-left{
     height: 900px;
     width: 100%;
      }
-     .login-right{
+     .childmarriage-right{
         height: 500px;
         width: 100%;
         position: relative;
        
      }
-     .login-formfields{
+     .childmarriage-formfields{
         width: 100%;
         }
-        .loginform-part{
+        .childmarriageform-part{
             display: flex;
             flex-direction: column;
             gap: 50px;

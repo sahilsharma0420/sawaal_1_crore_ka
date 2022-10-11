@@ -15,7 +15,7 @@ function Account() {
   const history =useNavigate();
 
   const [value, setValue] = useState();
-  const [registration, setregistration] = useState();
+  const [registration, setregistration] = useState("");
   const [expenses, setexpenses] = useState();
   const [inflation, setinflation] = useState();
   const [model,setmodel] = useState(false);
@@ -130,11 +130,11 @@ function Account() {
         />
       </LocalizationProvider>
 
-        <CssTextField className="account-formfields" value={registration} onChange={(e)=>setregistration(e.target.value)} type="number" label=<p className="retirement">Retirement Age</p> sx={{ input: { color: 'white', height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="account-formfields" value={registration}  onChange={(e)=>setregistration(e.target.value)} type="number" label=<p className="retirement">Retirement Age</p> sx={{ input: { color: 'white', height:"30px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
       </div>
       <div className='accountform-part2'>
-      <CssTextField className="account-formfields" value={expenses} onChange={(e)=>setexpenses(e.target.value)} type="number" label=<p className="expenses">Current Monthly Expenses of your family</p>  sx={{ input: { color: 'white', height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/> 
-      <CssTextField className="account-formfields" value={inflation} onChange={(e)=>setinflation(e.target.value)} type="number" label=<p className="inflation">Estimated inflation rate (in %)</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+      <CssTextField className="account-formfields" value={expenses} onChange={(e)=>setexpenses(e.target.value)}  label=<p className="expenses">Current Monthly Expenses of your family</p>  sx={{ input: { color: 'white', height:"30px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/> 
+      <CssTextField className="account-formfields" value={inflation} onChange={(e)=>setinflation(e.target.value)} type="number" label=<p className="inflation">Estimated inflation rate (in %)</p> sx={{ input: { color: 'white' , height:"30px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
       </div>
       </div>
       <div className='account-line'/>

@@ -4,8 +4,10 @@
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
 .registration{
+    position: absolute;
+    top: 8vh;
     width: 100%;
-    height:100vh;
+    height:92vh;
     display: flex;
     flex-direction: row;
     color: #fff;
@@ -26,9 +28,11 @@
     height: 110px;
     width: 110px;
  
+
 }
+
 .registration-image-container{
-    padding-top: 7%;
+    padding-top: 2%;
     padding-left: 5%;
     padding-bottom: 3%;
 }
@@ -37,6 +41,13 @@
     flex-direction: column;
     gap: 10px;
     padding: 0% 5%;
+}
+.registration-heading-part1{
+    font-size: 24px;
+}
+.registration-heading-part2{
+    margin-bottom: 0px;
+    font-size: 17px;
 }
 .registration-formfields{
     width: 50%;
@@ -47,7 +58,7 @@
         display: flex;
         flex-direction: column;
         gap: 5vh;
-        margin: 7vh 0vh;
+        margin: 5vh 0vh;
     
     }
     .registrationform-part1,.registrationform-part2{
@@ -59,6 +70,10 @@
     }
     .name,.mobile,.email{
         margin-top:8px;
+        font-size: 16px;
+    }
+    .gender{
+        font-size: 16px;
     }
     .registration-line{
         width: 90%;
@@ -69,6 +84,7 @@
         right: 0;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 3vh;
     }
     .lower-section{
         display: flex;
@@ -77,16 +93,17 @@
         padding: 0% 5%;
     }
     .registration-checkbox{
-       
+        margin-bottom: 2vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    
+     
     }
-  
+
     .registration-button{
         display: flex;
         gap: 10px;
+        
       }
   
     .button1{
@@ -103,7 +120,10 @@
         justify-content: center;
     }
 
-    
+    .css-6hp17o-MuiList-root-MuiMenu-list {
+        background-color: #000;
+        border:1px solid #fff;
+    }
     .button2{
         text-decoration: none;
         margin-top: 15px;
@@ -121,11 +141,10 @@
     }
     .menuitem{
         color:#fff;
+        background-color: #000;
         margin-bottom: 0%;
     }
-    .menuitem:active{
-        color: #000;
-    }
+ 
     .gender-selector{
         border: 1px solid white;
         color: #fff;
