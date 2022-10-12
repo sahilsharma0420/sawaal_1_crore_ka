@@ -152,10 +152,10 @@ width: 50%;
 }
 @media (max-width:880px) {
     .account-left{
-        height: 960px;
+        height: 800px;
     }
     .account-right{
-        height: 960px;
+        height: 800px;
     }
    }
    @media (max-width:740px) {
