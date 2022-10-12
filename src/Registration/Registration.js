@@ -30,9 +30,7 @@ const login=()=>{
   return (
     <div className='registration'>
     <div className='registration-left'>
-   <div className='registration-image-container'>
-    <img className='registration-image' src='https://sawaal1croreka.store/static/media/LOGO.434515af13a87abaa220.jpg' alt='not  found'/>
-      </div>
+
       <div className='registration-heading'>
         <h2 className='registration-heading-part1'>Create account</h2>
         <p className='registration-heading-part2'>By registering, you are giving us approval to contact you for promotional and transactional activity</p>

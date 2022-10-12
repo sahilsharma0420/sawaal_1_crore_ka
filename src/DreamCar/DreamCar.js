@@ -21,9 +21,7 @@ function DreamCar() {
   return (
     <div className="dreamcar">
         <div className="dreamcar-left">
-        <div className='dreamcar-image-container'>
-      <img  className='dreamcar-image' src='https://sawaal1croreka.store/static/media/LOGO.434515af13a87abaa220.jpg' alt='not  found'/>
-    </div>
+   
     <div className='dreamcar-heading'>
         <h2 className='dreamcar-heading-part1'>Enter  to your account</h2>
         <p className='dreamcar-heading-part2'>Access exclusive features by logging back into your account</p>

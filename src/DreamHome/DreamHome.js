@@ -20,9 +20,7 @@ function DreamHome() {
   return (
     <div className="dreamhome">
         <div className="dreamhome-left">
-        <div className='dreamhome-image-container'>
-      <img  className='dreamhome-image' src='https://sawaal1croreka.store/static/media/LOGO.434515af13a87abaa220.jpg' alt='not  found'/>
-     </div>
+     
      <div className='dreamcar-heading'>
         <h2 className='dreamhome-heading-part1'>Enter  to your account</h2>
         <p className='dreamhome-heading-part2'>Access exclusive features by logging back into your account</p>

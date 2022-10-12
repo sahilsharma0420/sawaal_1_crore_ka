@@ -65,9 +65,7 @@ function ChildEducation() {
   return (
     <div className="childeducation">
         <div className="childeducation-left">
-        <div className='childeducation-image-container'>
-      <img  className='childeducation-image' src='https://sawaal1croreka.store/static/media/LOGO.434515af13a87abaa220.jpg' alt='not  found'/>
-     </div>
+     
      <div className='childeducation-heading'>
         <h2 className='childeducation-heading-part1'>Enter  to your account</h2>
         <p className='childeducation-heading-part2'>Access exclusive features by logging back into your account</p>
@@ -75,7 +73,7 @@ function ChildEducation() {
      <form>
       {first && <div className='childeducation-form1'>
       <div className='childeducationform-part1'>
-        <CssTextField className="childeducation-formfields" type="text" label=<p className="field1">How Many Child</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="childeducation-formfields" type="number" label=<p className="field1">How Many Child</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
         <CssTextField className="childeducation-formfields" type="text" label=<p className="field2">Name</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
       </div>
       <div className='childeducationform-part2'>
@@ -90,11 +88,11 @@ function ChildEducation() {
     {second && <div className='childeducation-form2'>
       <div className='childeducationform-part1'>
         <CssTextField className="childeducation-formfields" type="text" label=<p className="field5">Dream Proffesion</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
-        <CssTextField className="childeducation-formfields" type="text" label=<p className="field6">Course Duration</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="childeducation-formfields" type="number" label=<p className="field6">Course Duration</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
       </div>
       <div className='childeducationform-part2'>
-        <CssTextField className="childeducation-formfields" type="text" label=<p className="field7">Current Yearly Fees for Course</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
-        <CssTextField className="childeducation-formfields" type="text" label=<p className="field8">Current Yearly Acomdation / Hostel</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="childeducation-formfields" type="number" label=<p className="field7">Current Yearly Fees for Course</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="childeducation-formfields" type="number" label=<p className="field8">Current Yearly Acomdation / Hostel</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
       </div>
       <div className='childeducation-line'/>
       <div className='childeducation-button'>
@@ -104,12 +102,12 @@ function ChildEducation() {
      </div>}
      {third && <div className='childeducation-form3'>
       <div className='childeducationform-part1'>
-        <CssTextField className="childeducation-formfields" type="text" label=<p className="field9">Home Trip Total In Course Duration </p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
-        <CssTextField className="childeducation-formfields" type="text" label=<p className="field10">Current Home Trip Cost (per trip)</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="childeducation-formfields" type="number" label=<p className="field9">Home Trip Total In Course Duration </p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="childeducation-formfields" type="number" label=<p className="field10">Current Home Trip Cost (per trip)</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
       </div>
       <div className='childeducationform-part2'>
-        <CssTextField className="childeducation-formfields" type="text" label=<p className="field11">Total No Of Parents Visit</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
-        <CssTextField className="childeducation-formfields" type="text" label=<p className="field12">Current Parent Trip Cost (per trip)</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="childeducation-formfields" type="number" label=<p className="field11">Total No Of Parents Visit</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="childeducation-formfields" type="number" label=<p className="field12">Current Parent Trip Cost (per trip)</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
       </div>
       <div className='childeducation-line'/>
       <div className='childeducation-button'>
@@ -119,12 +117,12 @@ function ChildEducation() {
      </div>}
      {fourth && <div className='childeducation-form4'>
       <div className='childeducationform-part1'>
-        <CssTextField className="childeducation-formfields" type="text" label=<p className="field13">Covocation Visit Cost </p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
-        <CssTextField className="childeducation-formfields" type="text" label=<p className="field14">Current Any Other livinG / Yearly Expensive</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="childeducation-formfields" type="number" label=<p className="field13">Covocation Visit Cost </p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="childeducation-formfields" type="number" label=<p className="field14">Current Any Other livinG / Yearly Expensive</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
       </div>
       <div className='childeducationform-part2'>
-        <CssTextField className="childeducation-formfields" type="text" label=<p className="field15">Exisiting Fund Available For Child Education </p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
-        <CssTextField className="childeducation-formfields" type="text" label=<p className="field16">Existing Regular Yearly Investment For Education PUrpose</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="childeducation-formfields" type="number" label=<p className="field15">Exisiting Fund Available For Child Education </p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="childeducation-formfields" type="number" label=<p className="field16">Existing Regular Yearly Investment For Education PUrpose</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
       </div>
       <div className='childeducation-line'/>
       <div className='childeducation-button'>
@@ -134,11 +132,11 @@ function ChildEducation() {
      </div>}
      {fifth && <div className='childeducation-form5'>
       <div className='childeducationform-part1'>
-        <CssTextField className="childeducation-formfields" type="text" label=<p className="field17">Expected Inflationn Rate%</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
-        <CssTextField className="childeducation-formfields" type="text" label=<p className="field18">Return On Investment </p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="childeducation-formfields" type="number" label=<p className="field17">Expected Inflationn Rate%</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="childeducation-formfields" type="number" label=<p className="field18">Return On Investment </p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
       </div>
       <div className='childeducationform-part2'>
-        <CssTextField className="childeducation-formfields" type="text" label=<p className="field19">Future (maturity value of any fund to be received for funding the education )</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
+        <CssTextField className="childeducation-formfields" type="number" label=<p className="field19">Future (maturity value of any fund to be received for funding the education )</p> sx={{ input: { color: 'white' , height:"39px" } }} variant='outlined' InputLabelProps={{className:"textfield-label"}} size='small' color=''/>
        
       </div>
       <div className='childeducation-line'/>

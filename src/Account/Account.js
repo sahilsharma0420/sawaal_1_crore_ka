@@ -55,9 +55,7 @@ function Account() {
     <>
     <div className='account'>
     <div className='account-left'>
-    <div className='account-image-container'>
-      <img  className='account-image' src='https://sawaal1croreka.store/static/media/LOGO.434515af13a87abaa220.jpg' alt='not  found'/>
-     </div>
+   
       <div className='account-heading'>
         <h2 className='account-heading-part1'>Create account</h2>
         <p className='account-heading-part2'>Get access to exclusive features by creating an account</p>
