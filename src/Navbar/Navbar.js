@@ -44,36 +44,92 @@ const Navbar = () => {
             <li>
               <NavLink to="#">About</NavLink>
             </li>
-       {/*      <li>
-              <NavLink
-                to="#"      onClick={handleclick}>
-                PLanning <span><KeyboardArrowDownIcon/></span>
-              </NavLink>
-              { planning &&
-              <div className={planning?"dropdown":"dropdown1"}>
-              <ul>
-              <li><NavLink onClick={handleclose} to="#">Dreamcar</NavLink></li>
-              <li><NavLink onClick={handleclose} to="#">DreamHome</NavLink></li>
-              <li><NavLink onClick={handleclose} to="#">ChidMarriage</NavLink></li>
-              <li><NavLink onClick={handleclose} to="#">ChildEducation</NavLink></li>
-              </ul>
-              </div>}
-            </li> */}
+        
             <li>
-            <div className="dropdown">
-  <NavLink class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" onClick={handleclick} data-bs-toggle="dropdown" aria-expanded="false">
-    Planning<KeyboardArrowDownIcon/>
-  </NavLink>
-   {planning && <div  className="dropdown-container">
-  <ul className="dropdown-menu" style={{backgroundColor:"rgb(1, 0, 1)",display:"flex",flexDirection:"column",height:"170px",width:"200px",boxShadow:"2px 2px 5px rgb(255, 214, 1)"}} aria-labelledby="dropdownMenuLink">
-    <li><NavLink style={{backgroundColor:"rgb(1, 0, 1)",color:"rgb(255, 214, 1)"}} onClick={handleclose} className="dropdown-item" to="/DreamCar">DreamCar</NavLink></li>
-    <li><NavLink style={{backgroundColor:"rgb(1, 0, 1)",color:"rgb(255, 214, 1)"}} onClick={handleclose} className="dropdown-item" to="/DreamHome">DreamHome</NavLink></li>
-    <li><NavLink style={{backgroundColor:"rgb(1, 0, 1)",color:"rgb(255, 214, 1)"}} onClick={handleclose} className="dropdown-item" to="/ChildMarriage">ChildMarriage</NavLink></li>
-    <li><NavLink style={{backgroundColor:"rgb(1, 0, 1)",color:"rgb(255, 214, 1)"}} onClick={handleclose} className="dropdown-item" to="/ChildEducation">ChildEducation</NavLink></li>
-    
-  </ul>
-  </div>}
-</div></li>
+              <div className="dropdown">
+                <NavLink
+                  class="btn btn-secondary dropdown-toggle"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  onClick={handleclick}
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Planning
+                  <KeyboardArrowDownIcon />
+                </NavLink>
+                {planning && (
+                  <div className="dropdown-container">
+                    <ul
+                      className="dropdown-menu"
+                      style={{
+                        backgroundColor: "rgb(1, 0, 1)",
+                        display: "flex",
+                        flexDirection: "column",
+                        height: "170px",
+                        width: "200px",
+                        border:"1px solid rgb(255, 214, 1)"
+                      }}
+                      aria-labelledby="dropdownMenuLink"
+                    >
+                      <li>
+                        <NavLink
+                          style={{
+                            backgroundColor: "rgb(1, 0, 1)",
+                            color: "rgb(255, 214, 1)",
+                          }}
+                          onClick={handleclose}
+                          className="dropdown-item"
+                          to="/DreamCar"
+                        >
+                          DreamCar
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          style={{
+                            backgroundColor: "rgb(1, 0, 1)",
+                            color: "rgb(255, 214, 1)",
+                          }}
+                          onClick={handleclose}
+                          className="dropdown-item"
+                          to="/DreamHome"
+                        >
+                          DreamHome
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          style={{
+                            backgroundColor: "rgb(1, 0, 1)",
+                            color: "rgb(255, 214, 1)",
+                          }}
+                          onClick={handleclose}
+                          className="dropdown-item"
+                          to="/ChildMarriage"
+                        >
+                          ChildMarriage
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          style={{
+                            backgroundColor: "rgb(1, 0, 1)",
+                            color: "rgb(255, 214, 1)",
+                          }}
+                          onClick={handleclose}
+                          className="dropdown-item"
+                          to="/ChildEducation"
+                        >
+                          ChildEducation
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </div>
+                )}
+              </div>
+            </li>
             <li>
               <NavLink to="#">contact</NavLink>
             </li>
@@ -84,12 +140,11 @@ const Navbar = () => {
           <ul>
             <li>
               <button className="login-home-button">
-              
                 <NavLink
                   style={{ color: "black", textDecoration: "none" }}
                   to="/Login"
                 >
-                  Get a Quote
+                Consult Now
                 </NavLink>
               </button>
             </li>
@@ -126,42 +181,118 @@ const Navbar = () => {
           </div>
           <div className="slider-part2">
             <ul>
+            <div className="sidebarlines"></div>
               <li>
                 <NavLink to="#">Home</NavLink>
               </li>
+              <div className="sidebarlines"></div>
               <li>
                 <NavLink to="#">About</NavLink>
               </li>
+              <div className="sidebarlines"></div>
               <li>
-            <div className="dropdown">
-  <NavLink class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" onClick={handleclick} data-bs-toggle="dropdown" aria-expanded="false">
-    Planning<KeyboardArrowDownIcon/>
-  </NavLink>
-   {planning && <div  className="dropdown-container">
-  <ul className="dropdown-menu" style={{backgroundColor:"rgb(1, 0, 1)",display:"flex",flexDirection:"column",height:"170px",width:"150px",boxShadow:"2px 2px 5px rgb(255, 214, 1)"}} aria-labelledby="dropdownMenuLink">
-    <p><NavLink style={{backgroundColor:"rgb(1, 0, 1)",color:"rgb(255, 214, 1)"}} onClick={handleclose} className="dropdown-item" to="/DreamCar">DreamCar</NavLink></p>
-    <p><NavLink style={{backgroundColor:"rgb(1, 0, 1)",color:"rgb(255, 214, 1)"}} onClick={handleclose} className="dropdown-item" to="/DreamHome">DreamHome</NavLink></p>
-    <p><NavLink style={{backgroundColor:"rgb(1, 0, 1)",color:"rgb(255, 214, 1)"}} onClick={handleclose} className="dropdown-item" to="/ChildMarriage">ChildMarriage</NavLink></p>
-    <p><NavLink style={{backgroundColor:"rgb(1, 0, 1)",color:"rgb(255, 214, 1)"}} onClick={handleclose} className="dropdown-item" to="/ChildEducation">ChildEducation</NavLink></p>
-    {planning && <p><NavLink to="#">Contact</NavLink></p>}
-  </ul>
-  </div>}
-</div></li>
-              <li >
-                <NavLink   to="#">Contact</NavLink>
+                <div className="dropdown">
+                  <NavLink
+                    class="btn btn-secondary dropdown-toggle"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    onClick={handleclick}
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Planning
+                    <KeyboardArrowDownIcon />
+                  </NavLink>
+                  {planning && (
+                    <div className="dropdown-container">
+                      <ul
+                        className="dropdown-menu"
+                        style={{
+                          backgroundColor: "rgb(1, 0, 1)",
+                          display: "flex",
+                          flexDirection: "column",
+                          height: "170px",
+                          width: "150px",
+                          boxShadow: "2px 2px 5px rgb(255, 214, 1)",
+                        }}
+                        aria-labelledby="dropdownMenuLink"
+                      >
+                        <p>
+                          <NavLink
+                            style={{
+                              backgroundColor: "rgb(1, 0, 1)",
+                              color: "rgb(255, 214, 1)",
+                            }}
+                            onClick={handleclose}
+                            className="dropdown-item"
+                            to="/DreamCar"
+                          >
+                            DreamCar
+                          </NavLink>
+                        </p>
+                        <p>
+                          <NavLink
+                            style={{
+                              backgroundColor: "rgb(1, 0, 1)",
+                              color: "rgb(255, 214, 1)",
+                            }}
+                            onClick={handleclose}
+                            className="dropdown-item"
+                            to="/DreamHome"
+                          >
+                            DreamHome
+                          </NavLink>
+                        </p>
+                        <p>
+                          <NavLink
+                            style={{
+                              backgroundColor: "rgb(1, 0, 1)",
+                              color: "rgb(255, 214, 1)",
+                            }}
+                            onClick={handleclose}
+                            className="dropdown-item"
+                            to="/ChildMarriage"
+                          >
+                            ChildMarriage
+                          </NavLink>
+                        </p>
+                        <p>
+                          <NavLink
+                            style={{
+                              backgroundColor: "rgb(1, 0, 1)",
+                              color: "rgb(255, 214, 1)",
+                            }}
+                            onClick={handleclose}
+                            className="dropdown-item"
+                            to="/ChildEducation"
+                          >
+                            ChildEducation
+                          </NavLink>
+                        </p>
+                    
+                      </ul>
+                    </div>
+                  )}
+                </div>
               </li>
+              <div className="sidebarlines"></div>
+              <li>
+                <NavLink to="#">Contact</NavLink>
+              </li>
+              <div className="sidebarlines"></div>
             </ul>
           </div>
           <div className="slider-part3">
             <ul>
               <li>
                 <button className="slider-button">
-                  {" "}
+             
                   <NavLink
                     style={{ color: "black", textDecoration: "none" }}
                     to="/Login"
                   >
-                    Get A Quote
+                    Consult Now
                   </NavLink>
                 </button>
               </li>
