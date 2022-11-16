@@ -3,7 +3,12 @@ import "./Login.css"
 import {TextField} from "@mui/material"
 import {styled} from "@mui/material/styles"
 import {Button} from "@mui/material"
+import {useNavigate } from "react-router-dom";
 function Login() {
+  const history =useNavigate();
+  const Registration=()=>{
+    history("/Registration");
+  }
   const CssTextField=styled(TextField)({
     "& .MuiOutlinedInput-root": {
       "& fieldset": {
@@ -35,6 +40,7 @@ function Login() {
       <div className='login-line'/>
       <div className='login-button'>
         <Button><p className='button3'>Next</p></Button>
+        <p className='account-link' onClick={Registration}>Create Account</p>
       </div>
     </div>
     <div className='login-right'></div>

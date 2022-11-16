@@ -144,7 +144,7 @@ const Navbar = () => {
                   style={{ color: "black", textDecoration: "none" }}
                   to="/Login"
                 >
-                Consult Now
+                Login Now
                 </NavLink>
               </button>
             </li>
@@ -292,7 +292,7 @@ const Navbar = () => {
                     style={{ color: "black", textDecoration: "none" }}
                     to="/Login"
                   >
-                    Consult Now
+                    Login Now
                   </NavLink>
                 </button>
               </li>

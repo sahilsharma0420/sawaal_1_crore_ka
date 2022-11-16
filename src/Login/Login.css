@@ -1,131 +1,143 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
-.login{
-    position: absolute;
-    top: 10vh;
-    width: 100%;
-    height:90vh;
-    display: flex;
-    flex-direction: row;
-    color: #fff;
-   
+.login {
+  position: absolute;
+  top: 10vh;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
 }
-.login-left{
-    width: 60%;
- 
-    background-color: rgb(1, 0, 1);
-    
+.login-left {
+  width: 60%;
+
+  background-color: rgb(1, 0, 1);
 }
-.login-right{
-    width: 40%;
- 
-    background-color: rgb(255, 214, 1);
+.login-right {
+  width: 40%;
+
+  background-color: rgb(255, 214, 1);
 }
 
-.login-heading{
+.login-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding: 0% 5%;
+  padding-top: 5%;
+}
+.login-heading-part1 {
+  font-size: 24px;
+}
+.login-heading-part2 {
+  margin-bottom: 0px;
+  font-size: 17px;
+}
+.login-formfields {
+  width: 50%;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  margin: 5vh 0vh;
+}
+.loginform-part {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  padding: 0% 5%;
+  align-items: center;
+}
+.login-line {
+  width: 90%;
+  height: 1px;
+  background-color: rgb(255, 214, 1);
+  margin-bottom: 2vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vh;
+}
+.login-button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0% 5%;
+}
+.button3 {
+  color: #000;
+  width: 70px;
+  border: 0cm;
+  height: 38px;
+  border-radius: 10px;
+  color: #000;
+  font-size: 16px;
+  background-color: rgb(255, 214, 1);
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+.account-link{
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: #000;
+    width: 170px;
+    border: 0cm;
+    height:38px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: rgb(255, 214, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginemail,
+.password {
+  margin-top: 6px;
+  font-size: 16px;
+}
+@media (max-width: 1000px) {
+  .login-left {
+    width: 65%;
+  }
+  .login-right {
+    width: 35%;
+  }
+}
+@media (max-width: 860px) {
+  .login-checkbox {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-   
-    padding: 0% 5%;
-    padding-top: 5%;
+  }
 }
-.login-heading-part1{
-    font-size: 24px;
-}
-.login-heading-part2{
-    margin-bottom: 0px;
-    font-size: 17px;
-}
-.login-formfields{
-    width: 50%;
-    }
-    .login-form{
-        display: flex;
-        flex-direction: column;
-        gap: 3vh;
-        margin: 5vh 0vh;
-    
-    }
-    .loginform-part{
-        display: flex;
-        flex-direction: column;
-        gap: 3vh;
-        padding: 0% 5%;
-        align-items: center;
-    }
-    .login-line{
-        width: 90%;
-        height: 1px;
-        background-color: rgb(255, 214, 1);
-        margin-bottom: 2vh;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 5vh;
-    }
-    .login-button{
-        display: flex;
-        justify-content: flex-end;
-       padding: 0% 5%;
-       }
-    .button3{
-        color: #000;
-        width: 70px;
-        border: 0cm;
-        height:38px;
-        border-radius: 10px;
-        color:#000 ;
-        font-size: 16px;
-        background-color: rgb(255, 214, 1);
-        display: flex;
-        align-items: center;
-        
-        justify-content: center;
-    }
-    .loginemail,.password{
-        margin-top: 6px;
-        font-size: 16px;
-    }
-    @media (max-width:1000px) {
-        .login-left{
-            width: 65%;
-        }
-        .login-right{
-            width: 35%;
-        }
-    }
-    @media (max-width:860px) {
-    .login-checkbox{
-        display: flex;
-        flex-direction: column;
-    }
-    }
-    @media (max-width:550px) {
-     .login{
-        display: block;
-    
-     }
-     .login-left{
+@media (max-width: 550px) {
+  .login {
+    display: block;
+  }
+  .login-left {
     height: 900px;
     width: 100%;
-     }
-     .login-right{
-        height: 500px;
-        width: 100%;
-        position: relative;
-       
-     }
-     .login-formfields{
-        width: 100%;
-        }
-        .loginform-part{
-            display: flex;
-            flex-direction: column;
-            gap: 3vh;
-        }
-        }
+  }
+  .login-right {
+    height: 500px;
+    width: 100%;
+    position: relative;
+  }
+  .login-formfields {
+    width: 100%;
+  }
+  .loginform-part {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+  }
+}

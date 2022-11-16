@@ -1,171 +1,197 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
-.childeducation{
-    height: 90vh;
-    width: 100%;
-   position: absolute;
-   top: 10vh;
-    display: flex;
-    flex-direction: row;
-    color: #fff;
-   
+.childeducation {
+  height: 90vh;
+  width: 100%;
+  position: absolute;
+  top: 10vh;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
 }
-.childeducation-left{
-    width: 60%;
-    background-color: rgb(1, 0, 1);
-  
+.childeducation-left {
+  width: 60%;
+  background-color: rgb(1, 0, 1);
 }
-.childeducation-right{
-    width: 40%;
-    background-color: rgb(255, 214, 1);
-
+.childeducation-right {
+  width: 40%;
+  background-color: rgb(255, 214, 1);
 }
 
+.childeducation-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 
-.childeducation-heading{
+  padding: 0% 5%;
+  padding-top: 5%;
+}
+.childeducation-heading-part1 {
+  font-size: 24px;
+}
+.childeducation-heading-part2 {
+  margin-bottom: 0px;
+  font-size: 17px;
+}
+.childeducation-formfields {
+  width: 50%;
+}
+.childeducation-formfields-1 {
+  width: 48%;
+}
+
+.childeducation-form1,
+.childeducation-form2,
+.childeducation-form3,
+.childeducation-form4,
+.childeducation-form5 {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  margin-top: 5vh;
+}
+.childeducationform-part1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0% 5%;
+  align-items: center;
+}
+.childeducationform-part2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0% 5%;
+  align-items: center;
+}
+.childeducation-line {
+  width: 90%;
+  height: 1px;
+  background-color: rgb(255, 214, 1);
+  margin-bottom: 2vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0%;
+}
+.childeducation-button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0% 5%;
+}
+.button3,
+.button5,
+.button7,
+.button9,
+.button11 {
+  color: #000;
+  width: 70px;
+  border: 0cm;
+  height: 38px;
+  border-radius: 10px;
+  color: #000;
+  font-size: 16px;
+  background-color: rgb(255, 214, 1);
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+.radio,
+.radio1,
+.radio2,
+.radio3,
+.radio4 {
+  border: 1px solid rgb(255, 214, 1);
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+
+  border-radius: 50%;
+}
+.button4,
+.button6,
+.button8,
+.button10 {
+  color: #000;
+  width: 90px;
+  border: 0cm;
+  height: 38px;
+  border-radius: 10px;
+  color: #000;
+  font-size: 16px;
+  background-color: rgb(255, 214, 1);
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+.field1,
+.field2,
+.field3,
+.field4,
+.field5,
+.field6,
+.field7,
+.field8,
+.field9,
+.field10,
+.field11,
+.field12,
+.field13,
+.field14,
+.field15,
+.field16,
+.field17,
+.field18,
+.field19 {
+  margin-top: 6px;
+  font-size: 16px;
+}
+.radio-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0;
+}
+@media (max-width: 1000px) {
+  .childeducation-left {
+    width: 65%;
+  }
+  .childeducation-right {
+    width: 35%;
+  }
+}
+@media (max-width: 860px) {
+  .childeducation-checkbox {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-   
-    padding: 0% 5%;
-    padding-top: 5%;
+  }
 }
-.childeducation-heading-part1{
-    font-size: 24px;
-}
-.childeducation-heading-part2{
-    margin-bottom: 0px;
-    font-size: 17px;
-}
-.childeducation-formfields{
-    width: 50%;
-    }
-    .childeducation-formfields-1{
-        width: 48%;
-        }
-
-    .childeducation-form1, .childeducation-form2, .childeducation-form3, .childeducation-form4, .childeducation-form5{
-        display: flex;
-        flex-direction: column;
-        gap: 3vh;
-        margin-top: 5vh ;
-    
-    }
-    .childeducationform-part1{
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        padding: 0% 5%;
-        align-items: center;
-    }
-    .childeducationform-part2{
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        padding: 0% 5%;
-        align-items: center;
-    }
-    .childeducation-line{
-        width: 90%;
-        height: 1px;
-        background-color: rgb(255, 214, 1);
-        margin-bottom: 2vh;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0%;
-    }
-    .childeducation-button{
-        display: flex;
-        justify-content: flex-end;
-       padding: 0% 5%;
-       }
-    .button3,.button5,.button7,.button9,.button11{
-        color: #000;
-        width: 70px;
-        border: 0cm;
-        height:38px;
-        border-radius: 10px;
-        color:#000 ;
-        font-size: 16px;
-        background-color: rgb(255, 214, 1);
-        display: flex;
-        align-items: center;
-        
-        justify-content: center;
-    }
-    .radio,.radio1,.radio2,.radio3,.radio4{
-        border:1px solid rgb(255, 214, 1); 
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
-       
-       
-        border-radius: 50%;
-    }
-    .button4,.button6,.button8,.button10{
-        color: #000;
-        width: 90px;
-        border: 0cm;
-        height:38px;
-        border-radius: 10px;
-        color:#000 ;
-        font-size: 16px;
-        background-color: rgb(255, 214, 1);
-        display: flex;
-        align-items: center;
-        
-        justify-content: center;
-    }
-    .field1,.field2,.field3,.field4,.field5,.field6 , .field7,.field8,.field9,.field10,.field11,.field12 , .field13,.field14,.field15,.field16,.field17,.field18,.field19{
-        margin-top: 6px;
-        font-size: 16px;
-    }
-    .radio-field{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: 0;
-    }
-    @media (max-width:1000px) {
-        .childeducation-left{
-            width: 65%;
-        }
-        .childeducation-right{
-            width: 35%;
-        }
-    }
-    @media (max-width:860px) {
-    .childeducation-checkbox{
-        display: flex;
-        flex-direction: column;
-    }
-    }
-    @media (max-width:550px) {
-     .childeducation{
-        display: block;
-    
-     }
-     .childeducation-left{
+@media (max-width: 550px) {
+  .childeducation {
+    display: block;
+  }
+  .childeducation-left {
     height: 900px;
     width: 100%;
-     }
-     .childeducation-right{
-        height: 500px;
-        width: 100%;
-        position: relative;
-       
-     }
-     .childeducation-formfields{
-        width: 100%;
-        }
-        .childeducationform-part{
-            display: flex;
-            flex-direction: column;
-            gap: 50px;
-        }
-        }
+  }
+  .childeducation-right {
+    height: 500px;
+    width: 100%;
+    position: relative;
+  }
+  .childeducation-formfields {
+    width: 100%;
+  }
+  .childeducationform-part {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
