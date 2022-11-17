@@ -193,7 +193,7 @@ const Navbar = () => {
               <li>
                 <div className="dropdown">
                   <NavLink
-                    class="btn btn-secondary dropdown-toggle"
+                    class="btn btn-secondary dropdown-toggle dropdown-link"
                     href="#"
                     role="button"
                     id="dropdownMenuLink"
@@ -209,6 +209,7 @@ const Navbar = () => {
                       <ul
                         className="dropdown-menu"
                         style={{
+                        
                           backgroundColor: "rgb(1, 0, 1)",
                           display: "flex",
                           flexDirection: "column",
@@ -228,7 +229,7 @@ const Navbar = () => {
                             className="dropdown-item"
                             to="/DreamCar"
                           >
-                            DreamCar
+                            Dream Car
                           </NavLink>
                         </p>
                         <p>
@@ -241,7 +242,7 @@ const Navbar = () => {
                             className="dropdown-item"
                             to="/DreamHome"
                           >
-                            DreamHome
+                            Dream Home
                           </NavLink>
                         </p>
                         <p>
@@ -254,7 +255,7 @@ const Navbar = () => {
                             className="dropdown-item"
                             to="/ChildMarriage"
                           >
-                            ChildMarriage
+                            Child Marriage
                           </NavLink>
                         </p>
                         <p>
@@ -267,7 +268,7 @@ const Navbar = () => {
                             className="dropdown-item"
                             to="/ChildEducation"
                           >
-                            ChildEducation
+                            Child Education
                           </NavLink>
                         </p>
                     

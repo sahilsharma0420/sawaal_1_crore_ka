@@ -206,6 +206,10 @@ padding-top: .6rem;
   background-color: rgb(1, 0, 1);
   color: rgb(255, 214, 1);
 }
+.dropdown-container{
+  position: absolute;
+  top:6.5vh;
+}
 /* responsive css style  */
 @media (max-width: 1080px) {
   .main-nav {
