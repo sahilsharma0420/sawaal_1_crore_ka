@@ -1,0 +1,180 @@
+.marriage-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(1, 0, 1);
+  height: 100%;
+  width: 100%;
+}
+.logo1 {
+  margin: 50px;
+  height: 133px;
+  width: 148px;
+  margin-bottom: 20px;
+}
+.logoline1 {
+  background-color: rgb(255, 214, 1);
+
+  height: 1px;
+  margin: 0px 50px;
+  margin-bottom: 100px;
+}
+
+.child-marriage-row1,
+.child-marriage-row2,
+.child-marriage-row3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.home-renovation,
+.gold-ornaments,
+.banquet,
+.honeymoon-trip,
+.social-trip,
+.photography,
+.garments,
+.other-expenses,
+.miscellaneous {
+  height: auto;
+  border: 1px solid rgb(255, 214, 1);
+  position: relative;
+  margin: 50px;
+  padding: 40px 40px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 33%;
+  height: 114px;
+}
+.marriage-cost,
+.existing-fund {
+  height: auto;
+  border: 1px solid rgb(255, 214, 1);
+  position: relative;
+  margin: 50px;
+  padding: 40px 40px 20px 40px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.home-renovation-label,
+.gold-ornaments-label,
+.banquet-label,
+.honeymoon-trip-label,
+.social-trip-label,
+.photography-label,
+.garments-label,
+.other-expenses-label,
+.miscellaneous-label {
+  position: absolute;
+  top: -18px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 16px;
+  height: auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(255, 214, 1);
+
+  background-color: rgb(1, 0, 1);
+  border: 2px solid rgb(255, 214, 1);
+  text-align: center;
+  font-weight: bold;
+}
+.marriage-cost-label,
+.existing-fund-label {
+  position: absolute;
+  top: -18px;
+  left: 40px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 16px;
+  height: auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(255, 214, 1);
+
+  background-color: rgb(1, 0, 1);
+  border: 2px solid rgb(255, 214, 1);
+  text-align: center;
+  font-weight: bold;
+}
+.home-renovation-data,
+.gold-ornaments-data,
+.banquet-data,
+.honeymoon-trip-data,
+.social-trip-data,
+.photography-data,
+.garments-data,
+.other-expenses-data2,
+.miscellaneous-data2 {
+  font-size: 16px;
+
+  color: white;
+  font-weight: bold;
+}
+.other-expenses-data1,
+.miscellaneous-data1 {
+  font-size: 14px;
+
+  color: rgb(255, 214, 1);
+  font-weight: bold;
+}
+.marriage-cost-left,
+.marriage-cost-middle,
+.marriage-cost-right {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+
+  align-items: center;
+  font-size: 16px;
+}
+.marriage-cost-left-line,
+.marriage-cost-middle-line,
+.marriage-cost-right-line {
+  background-color: white;
+  width: 100%;
+  height: 1px;
+  margin: 4px 0px;
+}
+.marriage-cost-line {
+  background-color: rgb(255, 214, 1);
+  width: 2px;
+  height: 50px;
+  margin: 0px 50px;
+}
+.existing-fund-left,
+.existing-fund-middle,
+.existing-fund-right {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+
+  align-items: center;
+  font-size: 16px;
+}
+.existing-fund-left-line,
+.existing-fund-middle-line,
+.existing-fund-right-line {
+  background-color: white;
+  width: 100%;
+  height: 1px;
+  margin: 4px 0px;
+}
+.existing-fund-line {
+  background-color: rgb(255, 214, 1);
+  width: 2px;
+  height: 50px;
+  margin: 0px 50px;
+}

@@ -1,0 +1,314 @@
+.education-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(1, 0, 1);
+  height: 100%;
+  width: 100%;
+}
+.logo {
+  margin: 50px;
+  height: 133px;
+  width: 148px;
+  margin-bottom: 20px;
+}
+.logoline {
+  background-color: rgb(255, 214, 1);
+
+  height: 1px;
+  margin: 0px 50px;
+}
+.description {
+  color: white;
+  border: 1px solid rgb(255, 214, 1);
+  border-radius: 5px;
+  margin: 50px;
+  padding: 20px 30px;
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.hostel-fee {
+  height: auto;
+  border: 1px solid rgb(255, 214, 1);
+  position: relative;
+  margin: 50px;
+  padding: 40px 40px 20px 40px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.hostel-fee-label {
+  position: absolute;
+  top: -18px;
+  left: 20px;
+  font-size: 16px;
+  height: auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(255, 214, 1);
+  width: auto;
+  background-color: rgb(1, 0, 1);
+  border: 2px solid rgb(255, 214, 1);
+  text-align: center;
+  font-weight: bold;
+}
+.hostel-fee-line {
+  background-color: rgb(255, 214, 1);
+  height: auto;
+  width: 1px;
+  margin: 0px 70px 0px 90px;
+}
+.hostel-fee-right,
+.hostel-fee-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.hostel-fee-right-upper,
+.hostel-fee-right-lower,
+.hostel-fee-left-upper,
+.hostel-fee-left-lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.hostel-fee-left-line,
+.hostel-fee-right-line {
+  height: 1px;
+  background-color: white;
+  margin: 4px 0px;
+}
+
+.trip-fee {
+  height: auto;
+  border: 1px solid rgb(255, 214, 1);
+  position: relative;
+  margin: 50px;
+  padding: 40px 40px 20px 40px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.trip-fee-label {
+  position: absolute;
+  top: -18px;
+  font-weight: bold;
+  left: 20px;
+  font-size: 16px;
+  height: auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(255, 214, 1);
+  width: auto;
+  background-color: rgb(1, 0, 1);
+  border: 2px solid rgb(255, 214, 1);
+  text-align: center;
+}
+.trip-fee-line {
+  background-color: rgb(255, 214, 1);
+  height: auto;
+  width: 1px;
+  margin: 0px 70px 0px 90px;
+}
+.trip-fee-right,
+.trip-fee-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.trip-fee-right-upper,
+.trip-fee-right-lower,
+.trip-fee-left-upper,
+.trip-fee-left-lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.trip-fee-left-line,
+.trip-fee-right-line {
+  height: 1px;
+  background-color: white;
+  margin: 4px 0px;
+}
+
+.visit-fee {
+  height: auto;
+  border: 1px solid rgb(255, 214, 1);
+  position: relative;
+  margin: 50px;
+  padding: 40px 40px 20px 40px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.visit-fee-label {
+  position: absolute;
+  top: -18px;
+  left: 20px;
+  font-size: 16px;
+  height: auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(255, 214, 1);
+  width: auto;
+  background-color: rgb(1, 0, 1);
+  border: 2px solid rgb(255, 214, 1);
+  text-align: center;
+  font-weight: bold;
+}
+.visit-fee-line {
+  background-color: rgb(255, 214, 1);
+  height: auto;
+  width: 1px;
+  margin: 0px 70px 0px 90px;
+}
+.visit-fee-right,
+.visit-fee-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.visit-fee-right-upper,
+.visit-fee-right-lower,
+.visit-fee-left-upper,
+.visit-fee-left-lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.visit-fee-left-line,
+.visit-fee-right-line {
+  height: 1px;
+  background-color: white;
+  margin: 4px 0px;
+}
+
+.living-fee {
+  height: auto;
+  border: 1px solid rgb(255, 214, 1);
+  position: relative;
+  margin: 50px;
+  padding: 40px 40px 20px 40px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.living-fee-label {
+  position: absolute;
+  top: -18px;
+  left: 20px;
+  font-size: 16px;
+  height: auto;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(255, 214, 1);
+  width: auto;
+  background-color: rgb(1, 0, 1);
+  border: 2px solid rgb(255, 214, 1);
+  text-align: center;
+}
+.living-fee-line {
+  background-color: rgb(255, 214, 1);
+  height: auto;
+  width: 1px;
+  margin: 0px 70px 0px 90px;
+}
+.living-fee-right,
+.living-fee-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.living-fee-right-upper,
+.living-fee-right-lower,
+.living-fee-left-upper,
+.living-fee-left-lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.living-fee-left-line,
+.living-fee-right-line {
+  height: 1px;
+  background-color: white;
+  margin: 4px 0px;
+}
+
+.course-fee {
+  height: auto;
+  border: 1px solid rgb(255, 214, 1);
+  position: relative;
+  margin: 50px;
+  padding: 40px 40px 20px 40px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.course-fee-label {
+  position: absolute;
+  top: -18px;
+  left: 20px;
+  font-size: 16px;
+  height: auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(255, 214, 1);
+  width: auto;
+  background-color: rgb(1, 0, 1);
+  border: 2px solid rgb(255, 214, 1);
+  text-align: center;
+  font-weight: bold;
+}
+.course-fee-line {
+  background-color: rgb(255, 214, 1);
+  height: auto;
+  width: 1px;
+  margin: 0px 70px 0px 90px;
+}
+.course-fee-right,
+.course-fee-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.course-fee-right-upper,
+.course-fee-right-lower,
+.course-fee-left-upper,
+.course-fee-left-lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.course-fee-left-line,
+.course-fee-right-line {
+  height: 1px;
+  background-color: white;
+  margin: 4px 0px;
+}
